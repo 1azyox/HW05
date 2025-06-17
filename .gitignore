@@ -43,3 +43,10 @@
 # 특정 폴더 전체를 무시하되, 그 안의 특정 파일은 추적하고 싶을 때 사용합니다.
 # 예를 들어, Build 폴더 전체는 무시하지만 특정 설정 파일은 유지하고 싶을 경우:
 #!/Build/SomeConfigFile.txt
+
+# Visual Studio config file
+.vsconfig
+
+# Unreal Engine generated files
+*_BuiltData.uasset
+UpgradeLog.htm
